@@ -1,0 +1,22 @@
+{
+  "name": "caaz-template-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script.babel",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "npx babel src --out-dir assets/js --watch --source-maps",
+    "tailwind": "npx tailwindcss -i src/tailwind.css  -o assets/css/tailwind.css --watch",
+    "dev": "yarn run babel && yarn run tailwind",
+    "build": "NODE_ENV=production npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
+  }
+}

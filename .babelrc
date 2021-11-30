@@ -1,0 +1,7 @@
+{
+    "sourceMap": true,
+    "targets": {
+        "chrome": "58",
+        "ie": "11"
+    }
+}
