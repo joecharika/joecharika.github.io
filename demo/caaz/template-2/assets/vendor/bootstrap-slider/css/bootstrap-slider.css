@@ -1,0 +1,280 @@
+/* -----------------------------------------
+:: max-width settings
+----------------------------------------- */
+@media(max-width:1199px) {
+.slider--dots, .slider--circle, .slider--themed-image, .slider-cover--right, .slider-cover--top-left, .slider-cover--center, .slider-cover--image, .slider-social-icons, .slider-logo img, .carousel-content p a.btn.btn-primary.btn-small--rounded {
+	display: none;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+img .bottom-slide {
+	display: none;
+}
+#bootstrap-slider img.d-block.w-100.overlay-slide {
+	display: none!important;
+}
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: auto;
+	left: 15%;
+	z-index: 10;
+	padding-bottom: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-content h2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.carousel-control-next-icon {
+	background-image: none;
+	font-size: 2.5rem;
+}
+.carousel-control-prev-icon {
+	background-image: none;
+	font-size: 2.5rem;
+}
+.slider--wrapper {
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 60px 15px 30px 15px;
+}
+}
+/* -----------------------------------------
+:: default and mobile settings
+----------------------------------------- */
+/* -----------------------------------------
+:: min-width 769 tablet to desktop settings
+----------------------------------------- */
+@media(min-width:769px) {
+#bootstrap-slider.carousel .carousel-indicators li {
+	margin: 11px 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.0), 0 3px 1px -2px rgba(0, 0, 0, 0.0), 0 1px 5px 0 rgba(0, 0, 0, 0.0);
+}
+#bootstrap-slider.carousel .carousel-indicators .active {
+	transform: scale(1.0);
+	background: rgba(255,255,255,0.99);
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.0), 0 1px 10px 0 rgba(0, 0, 0, 0.0), 0 2px 4px -1px rgba(0, 0, 0, 0.0);
+	background: #0482f8;
+	border: 1px solid rgba(255,255,255,0.0);
+}
+#bootstrap-slider .carousel-indicators li:hover {
+	background: #0482f8;
+	border: 1px solid rgba(255,255,255,0.0);
+}
+}
+/* -----------------------------------------
+:: min-width 1200 desktop settings
+----------------------------------------- */
+@media (min-width:1200px){
+.slider-pre-title {
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 0px;
+}
+.slider-title {
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+.slider-description {
+	font-size: 14px;
+}
+/* icons */
+.slider-social-icons {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.slider-social-icons ul {
+	list-style: none;
+}
+.slider-social-icons ul li.nav-item {
+	display: inline-block;
+}
+.slider-social-icons ul li.nav-item a.nav-link i {
+	color: rgba(255,255,255,0.75);
+	transition: all ease .3s;
+}
+.slider-social-icons ul li.nav-item a.nav-link i:hover {
+	color: rgba(255,255,255,0.99);
+}
+.slider-social-icons ul li.nav-item a.nav-link {
+	padding: 0.5rem 0.5rem;
+}
+.landing-page .nav-item.social-icon {
+	display: none;
+}
+/* icons */
+.landing-page div.collapse.navbar-collapse {
+	padding-right: 20px;
+}
+.carousel-content {
+	border-left: 10px solid #0482f8;
+	padding-left: 20px;
+}
+.carousel-control-next-icon {
+	background-image: none;
+	font-size: 2.5rem;
+}
+.carousel-control-prev-icon {
+	background-image: none;
+	font-size: 2.5rem;
+}
+/* icons */
+.slider--wrapper {
+	background-color: #252B33;
+	border-radius: 20px;
+	box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.25);
+}
+.slider--wrapper {
+	background-color: #252B33;
+	border-radius: 20px;
+	box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.25);
+	min-height: 607px;
+	margin: 60px auto;
+	max-width: 1080px;
+	overflow: hidden;
+}
+.slider--dots {
+	position: absolute;
+	top: 0%;
+	right: 50px;
+	mix-blend-mode: overlay;
+	z-index: 2;
+}
+.slider--circle {
+	position: absolute;
+	top: 0%;
+	right: 50px;
+	mix-blend-mode: overlay;
+	z-index: 2;
+}
+.slider--themed-image {display:none;
+	position: absolute;
+	top: 0%;
+	right: 0px;
+	z-index: 2;
+}
+.slider-cover--right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+.slider-cover--top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	mix-blend-mode: overlay;
+	z-index: 0;
+}
+.slider-cover--center {
+	position: absolute;
+	top: 0;
+	right: 0;
+	mix-blend-mode: overlay;
+	z-index: 0;
+}
+.slider-cover--image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#252b33+0,252b33+100&0+0,1+70 */;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(37,43,51,0) 0%, rgba(37,43,51,1) 70%, rgba(37,43,51,1) 100%); /* FF3.6-15 */;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(37,43,51,0) 0%,rgba(37,43,51,1) 70%,rgba(37,43,51,1) 100%); /* Chrome10-25,Safari5.1-6 */;
+	background: radial-gradient(ellipse at center, rgba(37,43,51,0) 0%,rgba(37,43,51,1) 80%,rgba(37,43,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252b33', endColorstr='#252b33',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+	z-index: 0;
+}
+img.bottom-slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+img.overlay-slide {
+	mix-blend-mode: overlay;
+}
+.slider--wrapper .carousel-control-prev, .slider--wrapper .carousel-control-next {
+	position: absolute;
+	top: auto;
+	bottom: 20px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	width: 42px;
+	height: 42px;
+	color: #ffffff; /* text-align: center; */;
+	opacity: 0.5;
+}
+.slider--wrapper .carousel-control-next {
+	right: 50px;
+}
+.slider--wrapper .carousel-control-prev {
+	right: 110px;
+	left: auto;
+}
+.carousel-indicators {
+	position: absolute;
+	right: auto;
+	bottom: 10px;
+	left: 40px;
+	z-index: 15;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+}
+/* logo */
+.slider-logo {
+	background: url('../../../../Site/graphics/circle-bg--logo.png') center center no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	min-width: 100px;
+	min-height: 100px;
+}
+/* logo */
+/* default */
+#bootstrap-slider .carousel-caption {
+	position: absolute;
+	right: auto;
+	bottom: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 100px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: left;
+	z-index: 1;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition: opacity ease-out .7s;
+}
+.carousel-fade .carousel-item.active, .carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+.carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+.carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item.active, .carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+}
